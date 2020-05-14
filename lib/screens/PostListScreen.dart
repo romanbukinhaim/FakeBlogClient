@@ -9,7 +9,6 @@ import 'PostDetailScreen.dart';
 class PostListScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    AppBase.of(context).loadPostList();
     return Scaffold(
         appBar: AppBar(leading: Icon(Icons.home), title: Text("All Posts")),
         body: Center(

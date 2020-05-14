@@ -12,7 +12,6 @@ class PostDetailScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    AppBase.of(context).loadComments(post.id);
     return Scaffold(
       appBar: AppBar(leading: BackButton()),
       body: ListView(
